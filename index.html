@@ -16,13 +16,15 @@
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="css/theme.css" rel="stylesheet" type="text/css">
         <link href="css/woocommerce.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:800">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,400italic">
     </head>
     <body>
         <div class="hfeed site" id="page">
             <header>
                 <div itemscope="" itemtype="http://schema.org/WebSite" id="wrapper-navbar">
                     <a class="skip-link sr-only sr-only-focusable" href="#content">Skip to content</a>
-                    <nav class="navbar bg-primary navbar-dark navbar-expand-lg"> 
+                    <nav class="navbar navbar-dark navbar-expand-lg bg-dark"> 
                         <div class="container">
                             <div data-pg-name="Brand Without Custom Logo" wp-if-custom="has_custom_logo()" wp-if-custom-not="true">
                                 <a rel="home" class="navbar-brand" href="#" cms-site-name>ST2</a>
@@ -58,8 +60,8 @@
                 <div data-pg-name="jumbotron_wrapper" wp-cz-control="show_jumbotron" wp-cz-control-label="Show Jumbotron" wp-cz-control-type="checkbox" wp-cz-control-section="header_settings" wp-if-get-theme-mod="show_jumbotron" wp-cz-control-description="Activate the Jumbotron. Note: It will be visible on ALL the theme templates. If you need a selective display, use the Hero slider or  Hero Canvas widgets and the Widget Logic plugin.">
                     <div class="jumbotron" cms-editable="jumbotron_bg_color" cms-editable-type="background-color" cms-editable-label="Jumbotron Background color" cms-editable-2="jumbotron_bg_image" cms-editable-label-2="Jumbotron Background image" cms-editable-type-2="background-image" cms-editable-image-size-2="full" cms-editable-section="header_settings" cms-editable-section-2="header_settings">
                         <div class="container">
-                            <h1 class="display-3" cms-editable="jumbotron_heading_color" cms-editable-type="text-color" cms-editable-label="Jumbotron Heading Color" cms-editable-style-important cms-editable-section="header_settings">Starter Theme <b>2</b></h1>
-                            <p class="lead" cms-editable="jumbotron_text_color" cms-editable-type="text-color" cms-editable-label="Jumbotron Paragraph Color" cms-editable-section="header_settings">Powered by Bootstrap 4 and SASS.</p>
+                            <h1 cms-editable="jumbotron_heading_color" cms-editable-type="text-color" cms-editable-label="Jumbotron Heading Color" cms-editable-style-important="" cms-editable-section="header_settings" class="display-3">Plan&nbsp;A Radio</h1>
+                            <p class="lead" cms-editable="jumbotron_text_color" cms-editable-type="text-color" cms-editable-label="Jumbotron Paragraph Color" cms-editable-section="header_settings">Spiritual fuel for both ears.</p>
                         </div>
                     </div>
                 </div>
@@ -113,28 +115,21 @@
                 </div>
             </header>
             <div wp-site-content>
-                <div class="wrapper" id="index-wrapper">
+                <div class="wrapper mt-5" id="index-wrapper">
                     <div class="container " id="content" tabindex="-1">
                         <div class="row">
-                            <div class="col-md-4 widget-area" wp-cz-control="show_left_sidebar" wp-cz-control-label="Show Left Sidebar" wp-cz-control-type="checkbox" wp-cz-control-section="theme_settings" wp-if-get-theme-mod="show_left_sidebar" wp-cz-control-description="Activate the Left Sidebar" role="complementary" id="left-sidebar" wp-hide>
-                                <aside wp-register-sidebar="Left Sidebar" wp-register-sidebar-id="left-sidebar" wp-register-sidebar-before="<aside id=&quot;%1$s&quot; class=&quot;widget %2$s&quot;>" wp-register-sidebar-after="</aside>" wp-register-sidebar-before-title="<h3 class=&quot;widget-title&quot;>" wp-register-sidebar-description="Left Sidebar widget area" wp-dynamic-sidebar="left-sidebar" wp-dynamic-sidebar-set="element"></aside>
-                                <h3 wp-no-export>Left Sidebar</h3>
-                                <p wp-no-export>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
-                            </div>
-                            <div class="col-md-8 content-area" id="primary">
+                            <div class="content-area mx-auto col-md-10 col-lg-8" id="primary">
                                 <main class="site-main" id="main">
                                     <div data-pg-name="content template" wp-template-part wp-template-part-slug="loop-templates/content" wp-template-part-content wp-include-template-part wp-include-template-part-slug="loop-templates/content">
                                         <article cms-post class="mb-5">
                                             <header class="entry-header">
                                                 <h2 cms-post-title cms-post-link="not_singular">Post Title</h2>
-                                                <div class="entry-meta">
+                                                <div class="entry-meta font-italic text-secondary">
                                                     <p>Posted on <span wp-the-modified-date wp-the-modified-date-set="content">March 18, 2018</span> by <span><a href="" wp-the-author wp-the-author-set="content" wp-href="author_posts">youremail@gmail.com</a></span></p>
                                                 </div>
                                             </header>
-                                            <img src="assets/gfx/full_size/pg_mountain_lake.jpg" cms-post-image="large" class="mb-4">
                                             <div class="entry-content">
                                                 <p cms-post-excerpt>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar faucibus neque, nec rhoncus nunc ultrices sit amet. Curabitur ac sagittis neque, vel egestas est. Aenean elementum, erat at aliquet hendrerit, elit nisl posuere tortor, id suscipit diam dui sed nisi. Morbi sollicitudin massa vel tortor consequat, eget semper nisl fringilla. Maecenas at hendrerit odio. Sed in mi eu quam suscipit bibendum quis at orci. Pellentesque fermentum nisl purus, et iaculis lectus pharetra sit amet.</p>
-                                                <a class="btn btn-secondary" wp-get-permalink wp-get-permalink-set="href" href="#">Read More</a>
                                             </div>
                                             <footer class="entry-footer"></footer>
                                         </article>
@@ -146,11 +141,6 @@
                                         </nav>
                                     </div>
                                 </main>                                 
-                            </div>
-                            <div class="col-md-4 widget-area" wp-cz-control="show_right_sidebar" wp-cz-control-label="Show Right Sidebar" wp-cz-control-type="checkbox" wp-cz-control-section="theme_settings" wp-if-get-theme-mod="show_right_sidebar" wp-cz-control-description="Activate the Right Sidebar" role="complementary" id="right-sidebar">
-                                <aside wp-register-sidebar="Right Sidebar" wp-register-sidebar-id="right-sidebar" wp-register-sidebar-before="<aside id=&quot;%1$s&quot; class=&quot;widget %2$s&quot;>" wp-register-sidebar-after="</aside>" wp-register-sidebar-before-title="<h3 class=&quot;widget-title&quot;>" wp-register-sidebar-description="Right Sidebar widget area" wp-dynamic-sidebar="right-sidebar" wp-dynamic-sidebar-set="element"></aside>
-                                <h3 wp-no-export>Right Sidebar</h3>
-                                <p wp-no-export>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
                             </div>
                         </div>
                     </div>

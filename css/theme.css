@@ -26,3 +26,17 @@ figure,
 #page {
     word-wrap: break-word;
 }
+
+header.entry-header h1,
+h2 {
+    font-family: Open Sans;
+}
+
+header.entry-header h2 a {
+    color: #212529;
+}
+
+header.entry-header h2 a:hover {
+    text-decoration: none;
+    color: #0085A1;
+}
